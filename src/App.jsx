@@ -1,4 +1,5 @@
 import Header from "./component/Header/Header";
+import Holders from "./component/Holders/Holders";
 import Navber from "./component/Navber/Navber";
 import Rewards from "./component/Reward/Rewards";
 
@@ -8,6 +9,7 @@ function App() {
       <Navber />
       <Header />
       <Rewards />
+      <Holders />
     </>
   );
 }
