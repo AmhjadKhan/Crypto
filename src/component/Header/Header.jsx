@@ -15,7 +15,7 @@ const Header = () => {
           <h4 className="text-center text-2xl font-semibold">$605.04M</h4>
         </div>
         <div className="bg-gray-800 p-6 rounded border-2">
-          <p className="text-center text-2xl font-semibold">Platform fees paid to RDNT lockers</p>
+          <p className="text-center text-xl font-semibold">Platform fees paid to RDNT lockers</p>
           <h4 className="text-center text-2xl font-semibold">$11.91M</h4>
         </div>
         <div className="bg-gray-800 p-6 rounded border-2">
