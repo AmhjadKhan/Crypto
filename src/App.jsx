@@ -1,7 +1,8 @@
+
 function App() {
   return (
     <>
-      <h1>WEL COME TO CRYPTO</h1>
+ <h1>this is home page </h1>
     </>
   );
 }
