@@ -1,8 +1,9 @@
+import Navber from "./component/Navber/Navber";
 
 function App() {
   return (
     <>
- <h1>this is home page </h1>
+      <Navber />
     </>
   );
 }
