@@ -13,18 +13,18 @@ const Workes = () => {
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 mt-10 border-b-2">
           <div className='border-r-2 '>
             <img src={padlock} alt="holder" className="mx-auto"/>
-            <h4 className="mt-4 text-2xl text-black font-bold">Lock $RDNT</h4>
-            <p className="text-xl pb-2">Receive high revenue from interest and <br /> revenue flash loan fees</p>
+            <h4 className="mt-4 text-2xl text-gray-800 font-bold">Lock $RDNT</h4>
+            <p className="text-xl pb-2 text-white">Receive high revenue from interest and <br /> revenue flash loan fees</p>
           </div>
           <div className='border-r-2 '>
             <img src={seting} alt="holder" className="mx-auto"/>
-            <h4 className="mt-4 text-2xl text-black font-bold">Access Boosted Emissions</h4>
-            <p className="text-xl pb-2">Locked liquidity activates lending and <br /> borrowing RNDT emissions</p>
+            <h4 className="mt-4 text-2xl text-gray-900 font-bold">Access Boosted Emissions</h4>
+            <p className="text-xl pb-2 text-white">Locked liquidity activates lending and <br /> borrowing RNDT emissions</p>
           </div>
           <div>
             <img src={waterdrop} alt="holder" className="mx-auto"/>
-            <h4 className="mt-4 text-2xl text-black font-bold">$RDNT Liquidity</h4>
-            <p className="text-xl pb-2">Generate substantial income from interest <br /> and fees earned</p>
+            <h4 className="mt-4 text-2xl text-gray-900 font-bold">$RDNT Liquidity</h4>
+            <p className="text-xl pb-2 text-white">Generate substantial income from interest <br /> and fees earned</p>
           </div>
         </div>
       </div>
