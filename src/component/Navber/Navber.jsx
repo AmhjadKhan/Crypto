@@ -1,5 +1,7 @@
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import headerImage from '../../assets/header.png'
+
 
 const Navbar = () => {
   const [isOpen, SetisOpen] = useState(false);
@@ -8,9 +10,9 @@ const Navbar = () => {
   };
   return (
     <>
-      <nav className="p-5 bg-gradient-to-r from-purple-500 to-[#0A1830] text-white flex justify-between items-center">
+      <nav className="p-5 bg-gradient-to-r from-purple-500 to-[#0A1830] text-white flex justify-between items-center" style={{ backgroundImage: `url(${headerImage})` }}>
         <div className="text-3xl font-serif font-bold">
-          <h1 className="text-gray-800">
+          <h1>
             CRYPTO
           </h1>
         </div>

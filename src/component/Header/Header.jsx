@@ -1,7 +1,12 @@
+import headerImage from '../../assets/header.png'
+
 
 const Header = () => {
   return (
-    <header className="bg-gradient-to-r from-purple-500 to-[#0A1830] text-white p-10">
+    <header
+      className="bg-gradient-to-r from-purple-500 to-[#0A1830] text-white p-10 bg-cover bg-center"
+      style={{ backgroundImage: `url(${headerImage})` }}
+    >
       <div className="text-center">
         <h1 className="text-6xl font-bold pb-4">Multi-Blockchain DeFi Earn And <br /> Borrow Across Networks</h1>
         <p className="mt-4 text-xl pb-3">
