@@ -1,4 +1,5 @@
 import FAQ from "./component/Faq/Faq";
+import Footer from "./component/footer/Footer";
 import Header from "./component/Header/Header";
 import Holders from "./component/Holders/Holders";
 import Mission from "./component/misson/Misson";
@@ -16,6 +17,7 @@ function App() {
       <Workes />
       <Mission />
       <FAQ />
+      <Footer />
     </>
   );
 }
