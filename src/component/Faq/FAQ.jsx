@@ -3,7 +3,7 @@
 function FAQ() {
   
   return (
-    <section className="faq py-12 bg-gray-800 text-white">
+    <section id="faq" className="faq py-12 bg-gray-800 text-white">
       <div className="section__container faq__container mx-auto px-4">
         <h2 className="section__header text-5xl font-bold text-center mb-6">
           Frequently Asked Questions

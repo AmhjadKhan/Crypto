@@ -5,7 +5,7 @@ import time from '../../assets/time.png'
 
 const Holders = () => {
   return (
-    <section className="py-20 bg-gradient-to-r from-purple-500 to-[#0A1830]">
+    <section id='holder' className="py-20 bg-gradient-to-r from-purple-500 to-[#0A1830]">
       <div className="container mx-auto text-center">
       <h2 className="text-5xl font-bold text-white">
       Trusted by <span className='text-gray-900'> <CountUp end={32000} duration={300.5} separator="," /></span> + holders

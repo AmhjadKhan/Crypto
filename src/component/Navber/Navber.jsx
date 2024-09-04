@@ -25,16 +25,16 @@ const Navbar = () => {
           } md:block`}
         >
           <li className="hover:text-black text-xl">
-            <a href="#">Goverment</a>
+            <a href="#header">Goverment</a>
           </li>
           <li className="hover:text-black text-xl">
-            <a href="#">Security</a>
+            <a href="#holder">Security</a>
           </li>
           <li className="hover:text-black text-xl">
-            <a href="#">Documention</a>
+            <a href="#documents">Documention</a>
           </li>
           <li className="hover:text-black tezt-xl">
-            <a href="#">FAQ</a>
+            <a href="#faq">FAQ</a>
           </li>
         </ul>
         <button className="btn btn-primary bg-blue-400 p-4 rounded-lg">

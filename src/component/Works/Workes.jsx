@@ -6,7 +6,7 @@ import waterdrop from "../../assets/water-drops.png"
 
 const Workes = () => {
   return (
-    <section className="py-20 bg-gradient-to-r from-purple-500 to-[#0A1830] ">
+    <section id="documents" className="py-20 bg-gradient-to-r from-purple-500 to-[#0A1830] ">
       <div className="container mx-auto text-center">
         <h2 className="text-5xl font-semibold text-white">How It Works</h2>
         <p className="mt-4 text-white text-2xl"> <span className="text-gray-900 font-bold">RDNT Lockers</span>  Lenders & Borrowers</p>

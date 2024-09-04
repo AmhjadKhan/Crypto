@@ -3,7 +3,7 @@ import headerImage from '../../assets/header.png'
 
 const Header = () => {
   return (
-    <header
+    <header id='header'
       className="bg-gradient-to-r from-purple-500 to-[#0A1830] text-white p-10 bg-cover bg-center"
       style={{ backgroundImage: `url(${headerImage})` }}
     >
@@ -12,8 +12,8 @@ const Header = () => {
         <p className="mt-4 text-xl pb-3">
           Whether it's earning interest on their digital assets or taking out loans, individuals can now explore <br /> opportunities beyond the limitations of a single blockchain.
         </p>
-        <button className="btn mt-6 p-5 rounded-md bg-blue-300 text-black text-xl font-semibold">Launch App</button>
-      </div>
+        <button className="btn btn-primary text-2xl text-black">Launch App</button>
+      </div> 
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-10">
         <div className="bg-gray-800 p-6 rounded border-2">
           <p className="text-center text-2xl font-semibold">Total Market Size</p>
